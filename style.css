@@ -1,0 +1,120 @@
+*, body{
+    padding: 0;
+    margin: 0;
+}
+
+.grand_father{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ /* .header{ 
+    display: flex;
+    border: 2px, solid, red;
+}  */
+
+h3{
+   color: black;
+  font-weight: 800;
+  font-family: mv boli;
+
+}
+ .father{ 
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+ }
+
+/* navbar{
+    flex-direction: column;
+} */
+ .nav-list{ 
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  }
+
+  .nav-item{
+    list-style: none;
+    margin-right: 2rem;
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 200ms ease-in;
+  }
+
+  .nav-item a:hover{
+    color: white ;
+  }
+  .nav-name{
+    margin-right: auto;
+    margin-left: 2rem;
+    list-style: none;
+  } 
+  .nav-name a {
+    text-decoration: none;
+  }
+  .btn-primary{
+    font-family:  Algerian;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+  }
+
+  .second_child {
+   display: flex;
+   flex-direction: row;
+   row-gap: 10px;
+  }
+
+  .left_side{
+   width: 50%;
+
+}
+.right_side{
+  width: 50%;
+  /* display: flex;
+  justify-content: right; */
+}
+
+
+.parent{
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+/* Tablet screens  */
+ @media (max-width:720px) {
+    .parent {
+        display: flex;
+        
+        flex-direction: column;
+    }
+
+    .parent div {
+        flex: 1 1 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        height: auto;
+    }
+}
+
+/* Small screens */
+@media (max-width:500px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
