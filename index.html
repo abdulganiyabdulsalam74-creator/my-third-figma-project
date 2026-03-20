@@ -7,35 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar">
+  <div class="nav-left">
+    <h1 class="site-title">MySite</h1>
+  </div>
+
+  <div class="nav-right">
+    <!-- Toggle -->
+    <input type="checkbox" id="nav-toggle" />
+
+    <!-- Hamburger -->
+    <label for="nav-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Menu -->
+    <ul class="nav-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 <div class="grand_father">
-    <div class="father">
-        <navbar>
-        <div class="first_child">
-        <ul class="nav-list">
-          <li class="nav-name">
-           <a   href="#"> <h3>Site name</h3></a>
-            </li>
-            <li class="nav-item">
-                <a href="#">page</a>
-            </li>
-            <li class="nav-item">
-                <a href="#">page</a>
-            </li>
-            <li class="nav-item">
-                <a href="#">page</a>
-            </li>
-            <li class="nav-item">
-               <button class="btn-primary">Donate</button> 
-            </li>
-        </ul>
-        </div>
-    </navbar>
-     <div class="second_child">
+    <div class="second_child"> 
     <div class="left_side">
-        <img src="images/Image.png" alt="#">
+        <div class="main-image"><img src="images/Image.png" alt="#"></div>
         </div>
         <div class="right_side">
-        <text>
         <h1>
             Product name
         </h1>
@@ -50,12 +52,14 @@
             Add to cart
         </button>
         <p>Text box for additional details or fine print</p>
-        </text>
     </div>
-     </div>
-    </div>
+     </div> 
+    
+
+
         <h1 class="header">
-            Related Products
+            Related Products 
+            </h1>
     <div class="parent">
         <div class="1st_img">
             <img src="images/pear.png" alt="image 1">
@@ -94,6 +98,7 @@
             <h3><b>$10.99</b></h3>
         </div>
     </div>
+    
 </div>
 </body>
 </html>
